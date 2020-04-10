@@ -18,7 +18,9 @@ public class Main {
 		
 		double sum = first + second;
 		
-		System.out.println("Sum = " + sum);
+		System.out.printf("Sum = %.0f", sum);
+		
+		scanner.close();
 		
 	}
 
