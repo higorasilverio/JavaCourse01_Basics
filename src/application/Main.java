@@ -10,7 +10,6 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("*** Adding two numbers ***");
 		System.out.print("Enter the first value to add: ");
 		double first = scanner.nextDouble();
 		System.out.print("Enter the second value to add: ");
@@ -18,7 +17,7 @@ public class Main {
 		
 		double sum = first + second;
 		
-		System.out.printf("Sum = %.0f", sum);
+		System.out.printf("Sum = %.2f", sum);
 		
 		scanner.close();
 		
